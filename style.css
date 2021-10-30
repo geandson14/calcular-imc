@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+section.main{
+    height: 100%;
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calc-imc{
+    background: #2A7ABF;
+    text-align: center;
+    color: white;
+    padding: 20px 20px 7px;
+    width: 95%;
+    margin: 30px 15px;
+    max-width: 380px;
+    border-radius: 20px;
+    font-family: sans-serif;
+    box-shadow: 6px 7px 9px 2px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 6px 7px 9px 2px rgba(0,0,0,0.48); 
+}
+
+.calc-imc .titulo{
+    font-size: clamp(0.3em, 1em + 1vw, 1.5em);
+    padding-bottom: 7px;
+    border-bottom: 1px solid white;
+}
+
+.calc-imc ul{
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+.calc-imc li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calc-imc input{
+    height: 40px;
+    font-size: 18px;
+    width: 100%;
+    outline: 0;
+    padding: 0 5px;
+    margin: 10px 0 10px 10px;
+    display: block;
+    border-radius: 5px;
+    border: 0;
+}
+
+.calc-imc button{
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.calc-imc .result{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    margin-top: 25px;
+    border-radius: 5px;
+    background: white;
+    padding: 15px;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.calc-imc > p{
+    padding-top: 10px;
+    font-size: clamp(0.2em, 0.67em + 0.8vw, 1em);
+}
+
+.list-imc{
+    background: #ffff00;
+    width: 85%;
+    padding: 20px 15px;
+    max-width: 300px;
+}
+
+.list-imc h3{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 900px){
+    section.main{
+        margin: 30px 0;
+        height: 850px;
+        justify-content:flex-start;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Calcular IMC</title>
+</head>
+<body>
+    <section class="main">
+        <div style="width: 25%;"></div>
+        <div class="calc-imc">
+            <div class="titulo">
+                <h2>Calculadora de IMC</h2>
+                <p>(Índice de massa corporal)</p>
+            </div>
+            <ul>
+                <li><label>Altura:</label><input type="number" id='altura'></li>
+                <li><label>Peso:</label><input type="number" id='peso'></li>
+            </ul>
+            <button id="calcular">CALCULAR</button>
+            <div class="result" id='resultado'></div>
+            <p>©desenvolvido por <a title="portfolio" href="https://geandson14.github.io/portfolio/" target="_blank" style="color: #ffff00;">Geandson Nunes</a></p>
+        </div>
+        <div class="list-imc">
+            <h3>Classificações</h3>
+            <span style="line-height: 22px; font-size: clamp(0.3em, 0.8em + 0.9vw, 1em);">
+                Muito abaixo do peso 16 a 16,9<br>
+                Abaixo do peso	17 a 18,4<br>
+                Peso normal	18,5 a 24,9<br>
+                Acima do peso 25 a 29,9<br>
+                Obesidade Grau I 30 a 34,9<br>
+                Obesidade Grau II 35 a 40<br>
+                Obesidade Grau III maior que 40<br>
+            </span>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
