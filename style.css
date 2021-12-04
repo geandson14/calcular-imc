@@ -17,7 +17,7 @@ section.main{
 }
 
 .calc-imc{
-    background: #2A7ABF;
+    background: #205C91;
     text-align: center;
     color: white;
     padding: 20px 20px 7px;
@@ -50,7 +50,7 @@ section.main{
 .calc-imc input{
     height: 40px;
     font-size: 18px;
-    width: 100%;
+    width: 80%;
     outline: 0;
     padding: 0 5px;
     margin: 10px 0 10px 10px;

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calculadora para medir o IMC(Índice de massa corporal) pelo o peso e altura, para ver se seu o peso está ideal para sua altura.">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Calcular IMC</title>
@@ -17,12 +18,12 @@
                 <p>(Índice de massa corporal)</p>
             </div>
             <ul>
-                <li><label>Altura:</label><input type="number" id='altura'></li>
-                <li><label>Peso:</label><input type="number" id='peso'></li>
+                <li><label for="altura">Altura:</label><input type="number" name="altura" id='altura'></li>
+                <li><label for="peso">Peso:</label><input type="number" name="peso" id='peso'></li>
             </ul>
             <button id="calcular">CALCULAR</button>
             <div class="result" id='resultado'></div>
-            <p>©desenvolvido por <a title="portfolio" href="https://geandson14.github.io/portfolio/" target="_blank" style="color: #ffff00;">Geandson Nunes</a></p>
+            <p>©desenvolvido por <a title="portfolio" href="https://geandson14.github.io/portfolio/" rel="noopener" target="_blank" style="color: #FFC745;">Geandson Nunes</a></p>
         </div>
         <div class="list-imc">
             <h3>Classificações</h3>
